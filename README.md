@@ -1,6 +1,6 @@
 # NAVER WEBTOON 하계 인턴 프로젝트
 
-# **프로젝트명 : DailyStatJob 개선**
+**프로젝트명 : DailyStatJob 개선**
 
 1) NAVER WEBTOON 하계인턴을 통해 진행한 프로젝트입니다.
 
