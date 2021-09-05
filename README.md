@@ -2,7 +2,11 @@
 
 **프로젝트명 : DailyStatJob 개선**
 
-**개요** : 웹툰으로부터 수집된 테이블은 최종적으로 분석을 위한 테이블인 "Stat"테이블로 생성됩니다.
+**개요** : 
+1) 웹툰으로부터 수집된 테이블은 최종적으로 분석을 위한 테이블인 **Stat**테이블로 생성됩니다.
+2) 이 때, 테이블은 Impala SQL 로직을 따르기 때문에 **Impala 형태**로 생성됩니다. 
+3) 현재의 Stat테이블 생성 로직을 Impala로직에만 한정 짓지 않고 다른 방면으로도 개편될 수 있는 확장성 확보가 필요합니다.
+4) 따라서, 기존의 DailyStatJob을 **새로운 로직을 통해 개편**해 볼 수 있도록 하며, **SparkJob**으로 개편해 볼 수 있도록 합니다.
 ![TotalOverview](https://github.com/KimHyungkeun/NW_Intern_Project/blob/main/Pictures/TotalOverview.jpg)
 
 **과제 목표 1** :  Stat테이블의 생성과정을 **SparkJob으로 재구성**해보는 것입니다.
