@@ -1,0 +1,1 @@
+*NAVER WEBTOON 하계 인턴 프로젝트*
