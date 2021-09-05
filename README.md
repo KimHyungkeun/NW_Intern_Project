@@ -6,7 +6,7 @@
 ![TotalOverview](https://github.com/KimHyungkeun/NW_Intern_Project/blob/main/Pictures/TotalOverview.jpg)
 
 **과제 목표 1** :  Stat테이블의 생성과정을 **SparkJob으로 재구성**해보는 것입니다.
-![MakeTableOverview](https://github.com/KimHyungkeun/NW_Intern_Project/blob/main/Pictures/MakeTableOverView.jpg)
+![MakeTableOverview](https://github.com/KimHyungkeun/NW_Intern_Project/blob/main/Pictures/MakeTableOverview.jpg)
 
 **과제 목표 2** :  기존 Job의 결과테이블과 내용을 비교하여 **정확성을 검증**합니다. 
 ![CheckTableOverview](https://github.com/KimHyungkeun/NW_Intern_Project/blob/main/Pictures/CheckTableOverview.jpg)
